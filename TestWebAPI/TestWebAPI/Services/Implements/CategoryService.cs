@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-using Test.Data;
+﻿using Test.Data;
 using Test.Data.Entities;
 using TestWebAPI.Models.Requests;
 using TestWebAPI.Services.Interfaces;
@@ -47,6 +45,7 @@ namespace TestWebAPI.Services.Implements
         public IEnumerable<Category> GetAll()
         {
             var category =_context.Categories.Where(c => c.IsDeleted == false).ToList();
+
             return category;
         }
 
@@ -83,6 +82,7 @@ namespace TestWebAPI.Services.Implements
         public Category Update(int id, UpdateCategoryRequest catToUpdate)
         {
             var category = _context.Categories.FirstOrDefault(c => c.CategoryId==id);
+
             if (category == null)
             {
                 return null;
@@ -94,7 +94,6 @@ namespace TestWebAPI.Services.Implements
             _context.SaveChanges();
 
             return category;
-
         }
     }
 }

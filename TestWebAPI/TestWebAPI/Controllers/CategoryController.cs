@@ -9,6 +9,7 @@ using TestWebAPI.Services.Interfaces;
 
 namespace TestWebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
@@ -21,6 +22,7 @@ namespace TestWebAPI.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public ActionResult Get()
         {
             var result = _categoryService.GetAll();
@@ -28,6 +30,7 @@ namespace TestWebAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public IActionResult GetById(int id)
         {
             try

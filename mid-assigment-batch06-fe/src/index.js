@@ -4,14 +4,8 @@ import './index.css';
 import 'antd/dist/antd.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SecondPage from './Pages/SecondPage';
-import Home from './Pages/Home';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
-import Login from './Pages/Login';
+import {BrowserRouter as Router} from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

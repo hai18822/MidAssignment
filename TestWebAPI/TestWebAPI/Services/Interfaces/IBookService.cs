@@ -11,11 +11,11 @@ namespace TestWebAPI.Services.Interfaces
         Task<Book?> Get(int id);
 
         Task<AddBookResponse> Add(AddBookRequest bookToAdd);
+
         Book Update(int id, UpdateBookRequest bookToUpdate);
+
         bool Delete(int id);
+
         bool SoftDelete(int id);
-
-        Task InitData();
-
     }
 }

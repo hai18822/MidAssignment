@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 using Test.Data;
 using Test.Data.Entities;
 using TestWebAPI.Models.Requests;
@@ -96,33 +95,6 @@ namespace TestWebAPI.Services.Implements
             return await _context.Books
                 .Include(m => m.Category)
                 .FirstOrDefaultAsync(x => x.BookId == id);
-        }
-
-        public async Task InitData()
-        {
-            for (int i = 1; i <= 3; i++)
-            {
-                var c = new Category()
-                {
-                    CategoryName = $"Category__{i}"
-                };
-                await _context.Categories.AddAsync(c);
-            }
-
-            await _context.SaveChangesAsync();
-
-            var cates = await _context.Categories.ToListAsync();
-
-            for (int i = 1; i < 11; i++)
-            {
-                var p = new Book()
-                {
-                    BookTitle = $"Book01__{i}",
-                    Category = cates[i % 3]
-                };
-                await _context.Books.AddAsync(p);
-            }
-            await _context.SaveChangesAsync();
         }
 
         public Book Update(int id, UpdateBookRequest bookToUpdate)

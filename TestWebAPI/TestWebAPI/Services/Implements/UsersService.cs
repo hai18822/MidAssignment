@@ -15,6 +15,13 @@ namespace TestWebAPI.Services.Implements
             _context = context;
         }
 
+        public User GetUserById(Guid userId)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+
+            return user;
+        }
+
         public async Task<User?> LoginUser(string username, string password)
         {
             return await _context.Users.SingleOrDefaultAsync(x => x.UserName == username && x.Password == password);

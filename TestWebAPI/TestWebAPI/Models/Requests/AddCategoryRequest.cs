@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Test.Data.Entities;
 
 namespace TestWebAPI.Models.Requests
 {
@@ -7,6 +6,5 @@ namespace TestWebAPI.Models.Requests
     {
         [Required]
         public string CategoryName { get; set; }
-        
     }
 }

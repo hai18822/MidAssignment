@@ -1,4 +1,4 @@
-import { Layout, Menu, Table } from 'antd';
+import { Table } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -25,20 +25,33 @@ const columns = [
     },
     {
         title: 'Action',
-        render: () => {
+        render: (record) => {
             return <>
                 <button className='btn btn-warning mr-2'>Edit</button>
-                <button className='btn btn-danger'>Delete</button>
+                <button className='btn btn-danger' onClick={() => {
+                    deleteBook(record.bookId)
+                }}>Delete</button>
             </>
         }
     },
 ];
 
+var access_token = localStorage.getItem("access_token");
+
+const deleteBook =  (bookId) => {
+     axios.delete(`https://localhost:7233/api/book/${bookId}`,{}, {
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': access_token
+        }
+    },);
+}
+
 function BookManagement() {
     const [dataBook, setDataBook] = useState([]);
 
     const getData = () => {
-        axios.get('https://localhost:7233/api/book/book')
+        axios.get('https://localhost:7233/api/book')
             .then(function (response) {
                 // handle success
                 setDataBook(response.data)
@@ -63,7 +76,7 @@ function BookManagement() {
     useEffect(() => {
         getData()
     }, [])
-    
+
     return (
         <div>
             <h1>Book management</h1>

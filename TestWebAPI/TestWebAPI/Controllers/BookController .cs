@@ -6,6 +6,7 @@ using TestWebAPI.Services.Interfaces;
 
 namespace TestWebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : ControllerBase
@@ -18,20 +19,15 @@ namespace TestWebAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult Index()
-        {
-            _bookService.InitData();
-            return Ok("Test");
-        }
-
-        [HttpGet("book")]
+        [AllowAnonymous]
         public async Task<ActionResult> Get()
         {
             var result = await _bookService.Get();
             return Ok(result);
         }
 
-        [HttpGet("book/{bookId}")]
+        [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult> Get(int id)
         {
             var result = await _bookService.Get(id);
@@ -51,7 +47,7 @@ namespace TestWebAPI.Controllers
         [Authorize(Roles = "SuperAdmin")]
         public ActionResult Delete(int id)
         {
-            var message = "Delete succeeded";
+            var message = "Book deletion successful!";
 
             try
             {

@@ -1,0 +1,60 @@
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.deps.json
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.dll
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.pdb
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.dll
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.pdb
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.AssemblyReference.cache
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfoInputs.cache
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfo.cs
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CoreCompileInputs.cache
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CopyComplete
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.dll
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\refint\Test.Data.dll
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.pdb
+C:\Users\anhtranv1.HARVEYNASH\Desktop\TestProject\TestWebAPI\Test.Data\obj\Debug\net6.0\ref\Test.Data.dll
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.deps.json
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.dll
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.dll
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.pdb
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.AssemblyReference.cache
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfoInputs.cache
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfo.cs
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CoreCompileInputs.cache
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CopyComplete
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.dll
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\refint\Test.Data.dll
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\Mid assignment\TestWebAPI\Test.Data\obj\Debug\net6.0\ref\Test.Data.dll
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.deps.json
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.dll
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.dll
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.pdb
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.AssemblyReference.cache
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfoInputs.cache
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfo.cs
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CoreCompileInputs.cache
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CopyComplete
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.dll
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\refint\Test.Data.dll
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\Mid assignment\code\TestWebAPI\Test.Data\obj\Debug\net6.0\ref\Test.Data.dll
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.deps.json
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.dll
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.dll
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\bin\Debug\net6.0\Common.pdb
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.AssemblyReference.cache
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfoInputs.cache
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.AssemblyInfo.cs
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CoreCompileInputs.cache
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.csproj.CopyComplete
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.dll
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\refint\Test.Data.dll
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\Test.Data.pdb
+E:\Rookie6\MidAssignment\TestWebAPI\Test.Data\obj\Debug\net6.0\ref\Test.Data.dll

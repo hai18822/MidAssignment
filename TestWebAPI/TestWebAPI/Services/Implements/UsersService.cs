@@ -15,7 +15,7 @@ namespace TestWebAPI.Services.Implements
             _context = context;
         }
 
-        public User GetUserById(Guid userId)
+        public User GetUserById(Guid? userId)
         {
             var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
 

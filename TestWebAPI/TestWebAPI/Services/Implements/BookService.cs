@@ -75,6 +75,7 @@ namespace TestWebAPI.Services.Implements
         {
             var listBooks = await _context.Books.Include(m => m.Category).ToListAsync();
             List<BookResponse> response = new List<BookResponse>();
+
             foreach(var item in listBooks)
             {
                 var newBook = new BookResponse

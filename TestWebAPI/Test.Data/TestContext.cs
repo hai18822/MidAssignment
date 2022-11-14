@@ -15,5 +15,7 @@ namespace Test.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<BookBorrowingRequest> BookBorrowingRequests { get; set; }
+        public DbSet<BookBorrowingRequestDetails> BookBorrowingRequestDetailss { get; set; }
     }
 }

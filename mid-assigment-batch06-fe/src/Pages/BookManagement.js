@@ -38,8 +38,8 @@ const columns = [
 
 var access_token = localStorage.getItem("access_token");
 
-const deleteBook =  (bookId) => {
-     axios.delete(`https://localhost:7233/api/book/${bookId}`,{}, {
+const deleteBook =  async(bookId) => {
+    await axios.delete(`https://localhost:7233/api/book/${bookId}`,{}, {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': access_token

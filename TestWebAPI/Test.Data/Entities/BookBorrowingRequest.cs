@@ -8,7 +8,9 @@ namespace Test.Data.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RequestId { get; set; }
-        public int UserId { get; set; }
+        //public int UserId { get; set; }
+        public User RequestUser { get; set; }
+        public User? Approver { get; set; }
         public DateTime? BorrowingDate { get; set; }
         public bool Status { get; set; }
     }

@@ -12,7 +12,7 @@ using Test.Data;
 namespace Test.Data.Migrations
 {
     [DbContext(typeof(TestContext))]
-    [Migration("20221111140058_FirstMigration")]
+    [Migration("20221114092135_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -48,7 +48,7 @@ namespace TestWebAPI.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "SuperAdmin")]
-        public IActionResult Update(int id, [FromBody] ApproveBookRequest bookRequestUpdateModel)
+        public IActionResult ApproveRequest(int id, [FromBody] ApproveBookRequest bookRequestUpdateModel)
         {
             var userId = this.GetCurrentLoginUserId();
 

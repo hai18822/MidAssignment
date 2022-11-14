@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Common.Enums;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Test.Data.Entities
@@ -12,6 +13,6 @@ namespace Test.Data.Entities
         public User RequestUser { get; set; }
         public User? Approver { get; set; }
         public DateTime? BorrowingDate { get; set; }
-        public bool Status { get; set; }
+        public RequestBookStatus Status { get; set; }
     }
 }

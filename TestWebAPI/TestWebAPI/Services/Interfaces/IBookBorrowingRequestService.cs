@@ -7,5 +7,7 @@ namespace TestWebAPI.Services.Interfaces
     public interface IBookBorrowingRequestService
     {
         BookBorrowingRequest Create(BookRequest bookRequestModel, User requestUser);
+
+        BookBorrowingRequest? Approve(int id, ApproveBookRequest approveRequestModel, User approver);
     }
 }
